@@ -14,7 +14,7 @@ a {
 .container-1 {
     background: #1F2937;
     display: flex;
-    padding: 20px 200px 100px 150px;
+    padding: 20px 260px 100px 150px;
     gap: 16px;
 }
 
@@ -89,7 +89,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .header-info {
@@ -113,6 +113,66 @@ a {
     max-width: 250px;
   }
 
-/* Container 4 */
+
+  /* Container 4 */
+.container-4 {
+    font-size: 36px;
+    color: #1F2937;
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-4 div {
+    max-width: 650px;
+}
+
+.container-4 .quote {
+    font-style: italic;
+    padding: 5px;
+}
+
+.container-4 .client {
+    font-weight: bold;
+    margin-left: 370px;
+}
 
 
+/* Container 5 */
+.container-5 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 90px 30px 90px;
+    margin: 90px 450px 90px 450px;
+    background: #3882F6;
+    color: white; 
+    gap: 400px;
+    border-radius: 10px;
+}
+
+.container-5 .action {
+    font-weight: bold;
+    text-align: start;
+}
+
+.container-5 .info {
+    text-align: start;
+    gap: 5px;
+}
+
+.container-5 .button {
+    padding: 10px 30px 10px 30px;
+    align-self: center;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    border-color: white;
+    font-weight: bold;
+}
+
+.container-5 .action-2 {
+    color: #E5E7EB;
+    width: 500px;
+}
