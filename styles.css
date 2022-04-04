@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Container 1 */
+.container-1 {
+    background: #1F2937;
+    display: flex;
+    padding: 20px 200px 120px 150px;
+    gap: 16px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 950;
+    color: #F9FAF8;
+}
+
+.item-1 {
+    margin-left: auto;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+    font-size: 18px;
+    color: #E5E7EB;
+} 
+
+
+/* Container 2 */
+.container-2 {
+    background: #1F2937; 
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+
+.container-2 .subcontainer {
+    display: flex;
+    flex-direction: column;
+} 
+
+.subcontainer {
+    gap: 8px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.container-2 .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container-2 .button {
+    font-weight: bold;
+    background: #3882F6; 
+    color: white; 
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.ocean {
+    border-radius: 8px;
+    width: 600px;
+    height: auto;
+    margin-left: 150px;
+    align-self: center;
+}
+
+
+/* Container 3 */
