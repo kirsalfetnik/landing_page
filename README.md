@@ -1,1 +1,1 @@
-# landing_page
+I've created a landing page for the Odin project. The landing page utilizes flexbox to display elements on the page.
